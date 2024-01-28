@@ -13,21 +13,31 @@
             padding: 20px;
         }
 
+        #header {
+            position: relative;
+        }
+
         #name {
             font-size: 36px;
             font-weight: bold;
             color: #333; /* Dark text color for contrast */
             margin-top: 50px;
         }
+
         hr {
             border: 1px solid #666; /* Grey color for the line */
             width: 50%;
-            margin: 20px auto; /* Center the line and add some spacing */
+            margin: 0 auto; /* Center the line */
+            position: absolute;
+            bottom: 0;
+            left: 25%; /* Adjust left position as needed */
         }
     </style>
 </head>
 <body>
-    <div id="name">Kyara's Page</div>
+    <div id="header">
+        <div id="name">Kyara's Page</div>
+        <hr>
+    </div>
 </body>
 </html>
-
